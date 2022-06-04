@@ -93,9 +93,9 @@ fun main() {
     val post = Post(
         2, 2, 2, 30, "post", Comments(), null, 12, Repost(), 0, "post", 21,
         arrayOf(
-           AudioAttachment(Audio(1,2,"www","singer", null, 130)),
-            VideoAttachment(Video(2, 3, "www", "video", "", 200)),
-            PhotoAttachment(Photo(3, 1, "www.ru"))
+            AudioAttachment("audio", Audio(1, 2, "www", "singer", null, 130)),
+            VideoAttachment("video", Video(2, 3, "www", "video", "", 200)),
+            PhotoAttachment("photo", Photo(3, 1, "www.ru"))
         )
     )
 
